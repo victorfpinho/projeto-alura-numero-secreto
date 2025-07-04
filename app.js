@@ -1,6 +1,6 @@
 //------------------------------------------------------------------------------------FUNÇÃO GERAR NÚMERO ALEATÓRIO
 function gerarNumeroAleatorio() {
-    let numeroMaximoRange = 10;
+    let numeroMaximoRange = 100;
     let numeroEscolhido = parseInt(Math.random() * numeroMaximoRange + 1);
     let quantidadeDeElementosNaLista = listaDeNumerosSorteados.length;
 
